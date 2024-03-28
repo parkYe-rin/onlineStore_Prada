@@ -1,0 +1,88 @@
+.logo {
+  width: 150px;
+}
+.container {
+  text-align: center;
+}
+
+.first-nav {
+  text-align: center;
+  margin: 3vh;
+}
+.first-nav-login {
+  text-align: end;
+  cursor: pointer;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.link span {
+  margin: 0vh 1vh;
+  font-size: large;
+}
+.search {
+  margin: 0vh 2vh;
+}
+.s-input {
+  border: 0px solid white;
+  border-bottom: 2px solid black;
+  width: 95px;
+}
+
+.img-size {
+  width: 297px;
+  height: 371px;
+}
+
+.menu-bar {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+.menu-bar li {
+  margin: 1vh;
+}
+
+.login-btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 40vh;
+}
+
+.login-btn-align {
+  margin-left: 110px;
+}
+
+.login-btn div {
+  margin: 1vh;
+}
+.card-event {
+  margin: 1em;
+}
+.card-event:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.detail-etc div {
+  display: flex;
+  justify-content: flex-start;
+  margin: 1vh 0vh;
+}
+.detail-etc {
+  /* border: 2px solid black; */
+  padding-top: 80px;
+  margin-left: 20px;
+}
+
+.detail-img {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.add {
+  pointer-events: none;
+}
