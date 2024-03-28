@@ -4,7 +4,6 @@ import { Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
 import Login from './page/Login';
 import All from './page/All';
-import ProductDetails from './page/ProductDetails';
 import Navbar from './component/Navbar';
 import PrivatePage from './navigate/PrivatePage';
 

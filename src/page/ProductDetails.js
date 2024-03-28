@@ -26,7 +26,7 @@ const ProductDetails = () => {
   };
 
   const pageDetails = async () => {
-    let url = `http://localhost:3004/products/${id}`;
+    let url = `http://localhost:3004/parkYe-rin/onlineStore_Prada/products/${id}`;
     let res = await fetch(url);
     let data = await res.json();
     setDetails(data);
