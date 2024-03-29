@@ -26,7 +26,7 @@ const ProductDetails = () => {
   };
 
   const pageDetails = async () => {
-    let url = `http://my-json-server.typicode.com/parkYe-rin/onlineStore_Prada/products/${id}`;
+    let url = `https://my-json-server.typicode.com/parkYe-rin/onlineStore_Prada/products/${id}`;
     let res = await fetch(url);
     let data = await res.json();
     setDetails(data);
@@ -40,11 +40,11 @@ const ProductDetails = () => {
       <Container>
         <Row>
           <Col className="detail-img">
-            <img src={details?.img} alt={details?.id} className="img-size" />
+            <img src={details.img} alt={details.id} className="img-size" />
           </Col>
           <Col className="detail-etc">
-            <div>{details?.title}</div>
-            <div>{details?.price}</div>
+            <div>{details.title}</div>
+            <div>{details.price}</div>
             <div>
               <ButtonToolbar aria-label="Toolbar with button groups">
                 <ButtonGroup aria-label="Second group">
