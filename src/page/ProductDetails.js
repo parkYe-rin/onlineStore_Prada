@@ -11,7 +11,7 @@ import { useParams } from 'react-router-dom';
 
 const ProductDetails = () => {
   const { id } = useParams();
-  const [details, setDetails] = useState(null);
+  const [details, setDetails] = useState('');
   const [minus, setMinus] = useState(0);
   const [plus, setPlus] = useState(0);
 
