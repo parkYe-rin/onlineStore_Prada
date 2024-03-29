@@ -11,7 +11,7 @@ import { useParams } from 'react-router-dom';
 
 const ProductDetails = () => {
   const { id } = useParams();
-  const [details, setDetails] = useState('');
+  const [details, setDetails] = useState(null);
   const [minus, setMinus] = useState(0);
   const [plus, setPlus] = useState(0);
 
@@ -40,11 +40,11 @@ const ProductDetails = () => {
       <Container>
         <Row>
           <Col className="detail-img">
-            <img src={details?.img} alt={details?.id} className="img-size" />
+            <img src={details.img} alt={details.id} className="img-size" />
           </Col>
           <Col className="detail-etc">
-            <div>{details?.title}</div>
-            <div>{details?.price}</div>
+            <div>{details.title}</div>
+            <div>{details.price}</div>
             <div>
               <ButtonToolbar aria-label="Toolbar with button groups">
                 <ButtonGroup aria-label="Second group">
